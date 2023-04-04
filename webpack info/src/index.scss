@@ -1,0 +1,23 @@
+// Import libraries css
+
+// Global styles for the app
+@import "style/global/fonts";
+@import "style/global/variables";
+@import "style/global/mixins";
+
+// Local styles for pages and components
+@import url("./style/pages/_about.scss");
+
+.product__item {
+	display: flex;
+	align-items: center;
+	margin-left: 30px;
+}
+.product__title {
+	margin-right: 20px;
+	line-height: 0;
+}
+a {
+	text-decoration: none;
+	color: red;
+}
